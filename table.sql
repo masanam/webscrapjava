@@ -1,0 +1,21 @@
+CREATE TABLE se_search_list (
+  id integer NOT NULL ,
+  uniqueid varchar(50) DEFAULT NULL,
+  user_ip varchar(255) DEFAULT NULL,
+  user_ip_int integer DEFAULT NULL,
+  date_time varchar(50) DEFAULT NULL,
+  keyword varchar(255),
+  search_type varchar(255),
+  user_id integer DEFAULT NULL,
+  title varchar(255),
+  url varchar(255),
+  spinner varchar(255),
+  image varchar(255),
+  video varchar(255),
+  url_id integer DEFAULT NULL,
+  url_clicked varchar(1000) DEFAULT NULL,
+  url_type varchar(100) DEFAULT NULL,
+  package_id integer DEFAULT NULL,
+  rewardid integer DEFAULT NULL,
+  PRIMARY KEY (id)
+) 
